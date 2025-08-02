@@ -63,7 +63,7 @@ document.querySelectorAll(".add-to-cart").forEach(button => {
 
     localStorage.setItem("cart", JSON.stringify(cart));
    showNotification(`${name} added to cart`);
-  });
+  }); 
 });
 
 
@@ -78,5 +78,5 @@ function showNotification(message) {
 
   setTimeout(() => {
     notification.classList.add("hidden");
-  }, 2000); // disappears after 1 second
+  }, 1000); // 1 second
 }
