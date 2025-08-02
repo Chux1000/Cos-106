@@ -68,7 +68,7 @@ header {
   font-size: 15px;
   font-weight: bold;
   font-family: 'Georgia', serif;
-  color: black;
+  color: white;
 }}
 
 @media(max-width:480px) {
@@ -179,7 +179,7 @@ button:hover {
   font-size: 25px;
   font-weight: bold;
   font-family: 'Georgia', serif;
-  color: black;
+  color: white;
 }
 
 .nav-links {
@@ -256,4 +256,5 @@ footer {
 
 .whatsapp-float:hover {
   background-color: #531d3f;
+
 }
